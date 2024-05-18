@@ -1,0 +1,147 @@
+/* *{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.bg{
+    background-image: linear-gradient(white, rgb(248, 163, 248)) ;
+}
+
+.navbar{
+    font-weight: bold;
+}
+
+.navbar-collapse button{
+    font-size: 15px;
+    border-image: linear-gradient(hsl(212, 100%, 61%), #6e00d4, violet) 10;
+    border-radius: 5px;
+    width: 150px;
+    font-weight: bold;
+}
+
+.navbar-collapse button:hover{
+    background-image: linear-gradient(hsl(212, 100%, 61%), #6e00d4, violet);
+    color: white;
+}
+
+#main-content{
+    height: 100vh;
+}
+
+.content{
+    position: absolute;
+    max-width: 500px;
+    margin: auto;
+}
+
+.content h1{
+    color: rgb(60, 0, 128);
+    font-weight: bold;
+}
+
+.main-content .content h1 span #color{
+    color: white;
+}
+
+.content h1::first-letter{
+    text-transform: uppercase;
+}
+
+.small-content p{
+    line-height: 0.5;
+    font-weight: 500;
+}
+
+.content button{
+    color: white;
+    border-radius: 5px;
+    background-image: linear-gradient(hsl(212, 100%, 61%), #6e00d4, violet);
+    width: 150px;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 35px;
+    font-weight: 500;
+}
+
+.content button:hover{
+    font-weight: 700;
+    color: white;
+}
+
+.bg-image{
+    position: absolute;
+    bottom: 10%;
+    right: 2%;
+    max-width: 100%;
+}
+
+#pixel-book-img{
+    width: 800px;
+    height: auto;
+} */
+
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.bg {
+    background-image: linear-gradient(white, white, rgb(218, 138, 255));
+    min-height: 100vh;
+}
+
+.navbar {
+    font-weight: bold;
+}
+
+.navbar-collapse button{
+    font-size: 15px;
+    border-image: linear-gradient(hsl(212, 100%, 61%), #6e00d4, violet) 5;
+    border-radius: 5px;
+    width: 150px;
+    font-weight: bold;
+}
+
+.navbar-collapse button:hover{
+    background-image: linear-gradient(hsl(212, 100%, 61%), #6e00d4, violet);
+    color: white;
+}
+
+.content .btn-cust {
+    font-size: 15px;
+    background-image: linear-gradient(hsl(212, 100%, 61%), #6e00d4, violet);
+    border-radius: 5px;
+    width: 100%;
+    max-width: 150px;
+    color: white;
+}
+
+.content .btn-cust:hover {
+    background-image: linear-gradient(hsl(212, 100%, 61%), #6e00d4);
+    color: white;
+    font-weight: bold;
+}
+
+#main-content {
+    height: 100vh;
+}
+
+h1 {
+    color: rgb(60, 0, 128);
+    font-weight: bold;
+}
+
+h1::first-letter {
+    text-transform: uppercase;
+}
+
+.small-content p {
+    font-weight: 500;
+}
+
+.bg-image img {
+    max-width: 1040px;
+    width: 100%;
+    z-index: 1;
+}
