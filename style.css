@@ -63,5 +63,4 @@ h1::first-letter {
 .bg-image img {
     max-width: 1040px;
     width: 100%;
-    z-index: 1;
 }
